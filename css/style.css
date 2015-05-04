@@ -1129,7 +1129,6 @@ a.border-button {
 }
 .icons-bar-fill #icons-bar {
   padding: 0 14px;
-  background-image: url('data:image/svg+xml;utf8,<svg version="1.1" width="2px" height="2px" viewBox="0 0 2 2" xmlns="http://www.w3.org/2000/svg"><g style="shape-rendering: crispEdges;"><rect x="0" y="0" width="1" height="1" style="fill: #323746; fill-opacity:1"></rect></g></svg>');
   background-color: rgba(50, 55, 70, 0.25);
 }
 .dark-background #icons-bar a.ico svg *,
@@ -1317,7 +1316,7 @@ a.border-button {
 }
 #bar #bar-content {
   max-height: 56px;
-  background-color: #EBC689;
+  background-color: black;
   *zoom: 1;
 }
 #bar #bar-content:before,
@@ -1330,8 +1329,8 @@ a.border-button {
 }
 
 .cagelogo {
-  width: 20%;
-  margin-left: 40%;
+  width: 40%;
+  margin-left: 30%;
   margin-bottom: 5%;
 }
 #bar #bar-content #logo {
@@ -4618,6 +4617,7 @@ a.border-button {
 #region-full-screen-menu ul li ul li a {
   font-size: 14px;
   line-height: 28px;
+  color: #ebc689;
 }
 #region-full-screen-menu ul li ul li a:before {
   display: none;
