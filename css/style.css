@@ -713,6 +713,7 @@ a:hover {
 }
 a img {
   border-width: 0;
+  margin-bottom: 5%;
 }
 img {
   display: block;
@@ -764,6 +765,7 @@ h3 {
   font-weight: 500;
   line-height: 42px;
   letter-spacing: 1px;
+  text-align: left;
 }
 h4 {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
@@ -884,7 +886,7 @@ h6 {
 .wpcf7-submit,
 .form-submit input {
   display: inline-block;
-  border: 2px solid #c15151;
+  border: 2px solid #0B98FF;
   padding: 1px;
   min-width: 168px;
   border-radius: 4px;
@@ -912,7 +914,8 @@ h6 {
 .button:hover span,
 .wpcf7-submit:hover span,
 .form-submit input:hover span {
-  background-color: #a53b3b;
+  background-color: #EBC689;
+  color: black;
 }
 .button:active span,
 .wpcf7-submit:active span,
@@ -924,7 +927,7 @@ h6 {
 .wpcf7-submit span,
 .form-submit input span {
   display: block;
-  background-color: #c15151;
+  background-color: #0b98ff;
   border-radius: 1px;
   line-height: 28px;
   text-transform: uppercase;
@@ -950,7 +953,7 @@ input.wpcf7-submit {
 .form-submit input:hover,
 input.button:hover,
 input.wpcf7-submit:hover {
-  background-color: #a53b3b;
+  background-color: #ebc689;
 }
 .form-submit input:active,
 input.button:active,
@@ -1151,7 +1154,7 @@ a.border-button {
   left: auto !important;
 }
 .region-page h4 {
-  color: #c15151;
+  color: #EBC689;
   margin-bottom: 21px;
 }
 #mobile-footer {
@@ -1248,7 +1251,7 @@ a.border-button {
 }
 #bar #bar-top #bar-player-track {
   position: relative;
-  background-color: #c15151;
+  background-color: #0B98FF;
   height: 56px;
   margin-right: 57px;
 }
@@ -1278,7 +1281,7 @@ a.border-button {
   cursor: pointer;
 }
 #bar #bar-top #bar-player-track #bar-player-commands span:hover svg * {
-  fill: #ffffff;
+  fill: #EBC689;
 }
 #bar #bar-top #bar-player-track #bar-player-commands span:active {
   opacity: 0.5;
@@ -1337,20 +1340,23 @@ a.border-button {
   display: block;
   padding: 16px 28px;
   float: left;
+  margin-bottom: 5%;
 }
 #bar #bar-content #logo.image-logo {
   padding: 7px;
 }
 #bar #bar-content #logo img {
   width: auto;
-  max-height: 42px;
+  max-height: 50px;
   margin-right: 21px;
+  margin-top: -15%;
 }
 #bar #bar-content #bar-icons {
   float: right;
   height: 14px;
   padding: 21px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 #bar #bar-content #bar-icons span {
   display: block;
@@ -1358,10 +1364,10 @@ a.border-button {
   margin-left: 14px;
 }
 #bar #bar-content #bar-icons span svg * {
-  fill: #ffffff;
+  fill: #EBC689;
 }
 #bar #bar-content #bar-icons span:hover svg * {
-  fill: #c15151;
+  fill: #EBC689;
 }
 #bar #bar-content.nav-resize nav ul li {
   margin-right: 7px;
@@ -1407,7 +1413,7 @@ a.border-button {
   color: #ffffff;
 }
 #bar #bar-content nav ul li a:hover {
-  color: #c15151;
+  color: #EBC689;
 }
 #bar #bar-content nav ul li ul {
   position: absolute;
@@ -1452,13 +1458,13 @@ a.border-button {
   width: 56px;
   height: 56px;
   overflow: hidden;
-  background-color: #c15151;
+  background-color: #0B98FF;
   cursor: pointer;
 }
 #bar #bar-nav-player:hover,
 #bar #bar-player-button:hover,
 #bar #bar-bottom-nav:hover {
-  background-color: #b84141;
+  background-color: #EBC689;
 }
 #bar #bar-nav-player:active,
 #bar #bar-player-button:active,
@@ -2028,11 +2034,10 @@ a.border-button {
   display: block;
   width: 60%;
   height: auto;
-  box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.25), 4px 4px 0 0 rgba(0, 0, 0, 0.2);
 }
 #region-page-one h1 {
   position: absolute;
-  color: #c15151;
+  color: #EBC689;
   left: 50%;
   max-width: 40%;
   bottom: 105px;
@@ -2333,7 +2338,7 @@ a.border-button {
 #share-on span#share-on-label {
   display: block;
   margin-right: 127px;
-  background-color: #c15151;
+  background-color: #0B98FF;
   font-weight: 700;
   padding: 0 0;
   padding-left: 7px;
@@ -2341,13 +2346,14 @@ a.border-button {
 }
 #share-on span#share-on-select {
   float: right;
-  background-color: #b03f3f;
+  background-color: #0B98FF;
   cursor: pointer;
   width: 126px;
   box-sizing: border-box;
 }
 #share-on span#share-on-select:hover {
-  background-color: #963535;
+  background-color: #EBC689;
+  color: black;
 }
 #share-on span#share-on-select:active {
   background-color: #7c2c2c;
@@ -2379,11 +2385,12 @@ a.border-button {
   float: right;
   margin-bottom: 1px;
   width: 126px;
-  background-color: #b03f3f;
+  background-color: #7F462C;
   box-sizing: border-box;
 }
 #share-on #share-on-options div:hover {
-  background-color: #963535;
+  background-color: #EBC689;
+  color: black;
 }
 #share-on #share-on-options div:active {
   background-color: #7c2c2c;
@@ -3092,7 +3099,7 @@ a.border-button {
   background-color: #c15151;
 }
 .region-events ul li.next-event .event-button .button:hover span {
-  background-color: #a53b3b;
+  background-color: #EBC689;
 }
 .region-events ul li.next-event .event-button .button:active span {
   background-color: #7f2d2d;
@@ -3123,8 +3130,8 @@ a.border-button {
   font-weight: 400;
 }
 .region-events ul li .event-button .button:hover span {
-  background-color: #323746;
-  color: #ffffff;
+  background-color: #EBC689;
+  color: black;
 }
 .region-events ul li .event-button .button:active span {
   background-color: #1d2028;
@@ -3210,16 +3217,17 @@ a.border-button {
 .region-tracklist ul li {
   line-height: 21px;
   margin-bottom: 1px;
-  background-color: #474e64;
+  background-color: #686868;
   padding: 10.5px 21px;
   font-weight: 500;
   cursor: pointer;
-  color: #ffffff;
+  color: black;
   -webkit-transition: background-color 0.15s ease 0s;
   transition: background-color 0.15s ease 0s;
 }
 .region-tracklist ul li:hover {
-  background-color: #c15151;
+  background-color: #EBC689;
+  color: black;
 }
 .region-tracklist ul li:hover .track-icons {
   opacity: 1;
@@ -3253,9 +3261,9 @@ a.border-button {
   fill: #323746;
 }
 .region-tracklist ul li span {
-  opacity: 0.25;
   display: inline-block;
   margin-right: 7px;
+  color: black;
 }
 .region-tracklist ul li .track-icons {
   float: right;
