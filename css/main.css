@@ -1,7 +1,78 @@
-#bioheader {
-	text-align: left;
+h2#bioheader {
+	text-align: center;
 }
 
 .twittericon {
 	margin-bottom: 20px;
+}
+
+#albumcover {
+    width: 70%;
+    height: 70%;
+    
+}
+
+#cagelogo {
+	width: 20%;
+	height: 30%;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+#region-page-one h1 {
+  position: absolute;
+  color: #EBC689;
+  left: 50%;
+  max-width: 40%;
+  bottom: 105px;
+  padding-left: 21px;
+  z-index: 5;
+}
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	h1 {
+		font-size: 2em;
+	}
+
+	#region-page-one h1 {
+  color: #EBC689;
+  left: 50%;
+  max-width: 100%;
+  bottom: 105px;
+  padding-left: 21px;
+  margin-left: 10%;
+  z-index: 5;
+}
+
+	#cagelogo {
+		margin-left: 20%;
+	}
+
+	#albumcover {
+		margin: 0 0 5% 15%;
+	}
+
+	#tracklistheader {
+		margin-left: 20%;
+	}
+
 }

@@ -62,6 +62,7 @@ body {
   width: 100%;
   *zoom: 1;
 }
+
 body:before,
 body:after {
   content: "";
@@ -2031,12 +2032,10 @@ a.border-button {
   z-index: 4;
 }
 #region-page-one #featured-image img {
-  display: block;
   width: 60%;
-  height: auto;
+  height: 30%;
 }
 #region-page-one h1 {
-  position: absolute;
   color: #EBC689;
   left: 50%;
   max-width: 40%;
