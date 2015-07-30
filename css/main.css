@@ -88,6 +88,7 @@ h1 {
   z-index: 5;
 }
 
+
 	#cagelogo {
 		margin-left: 20%;
 	}
@@ -99,5 +100,15 @@ h1 {
 	#tracklistheader {
 		margin-left: 20%;
 	}
+
+/* Gallery */
+
+.page-title .page-title-content {
+  display: block;
+  float: left;
+  background-color: #0B98FF;
+  color: #ffffff;
+  margin: 5% 0 5% 0;
+}
 
 }
