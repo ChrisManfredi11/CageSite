@@ -71,6 +71,10 @@ body:after {
 body:after {
   clear: both;
 }
+
+.socialmedia {
+  margin-top: 30%;
+}
 /* 01. PHOTOSWIPE (LIGHTBOX) */
 /*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
 .pswp {
@@ -705,6 +709,7 @@ input {
   -moz-osx-font-smoothing: grayscale;
 }
 a {
+  text-decoration: none;
   color: #c15151;
   -webkit-transition: color 0.1s ease 0s;
   transition: color 0.1s ease 0s;
@@ -724,7 +729,9 @@ img.image-responsive {
   height: auto;
 }
 p {
+  font-size: 1.3em;
   margin-bottom: 21px;
+  font-family: 'Lora', serif;
 }
 p.no-indent {
   text-indent: 0;
@@ -747,45 +754,40 @@ blockquote::before {
   width: 20px;
 }
 h1 {
-  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-  font-size: 49px;
+  font-family: 'Lora', serif;  font-size: 49px;
   font-weight: 300;
   line-height: 1.25em;
   color: #c15151;
 }
 h2 {
-  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-  font-size: 42px;
+  font-family: 'Lora', serif;  font-size: 42px;
   font-weight: 300;
   line-height: 42px;
   letter-spacing: 1px;
+  padding-bottom: 5%;
 }
 h3 {
-  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-  font-size: 28px;
+  font-family: 'Lora', serif;  font-size: 28px;
   font-weight: 500;
   line-height: 42px;
   letter-spacing: 1px;
   text-align: left;
 }
 h4 {
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  font-weight: 500;
+  font-family: 'Lora', serif;  font-weight: 500;
   font-size: 21px;
   line-height: 21px;
   margin-bottom: 7px;
 }
 h5 {
-  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: 'Lora', serif;  font-weight: 700;
   font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
   line-height: 21px;
 }
 h6 {
-  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-family: 'Lora', serif;  font-weight: 400;
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -887,7 +889,7 @@ h6 {
 .wpcf7-submit,
 .form-submit input {
   display: inline-block;
-  border: 2px solid #0B98FF;
+  border: 2px solid #ebc689;
   padding: 1px;
   min-width: 168px;
   border-radius: 4px;
@@ -928,14 +930,14 @@ h6 {
 .wpcf7-submit span,
 .form-submit input span {
   display: block;
-  background-color: #0b98ff;
+  background-color: #ffffff;
   border-radius: 1px;
   line-height: 28px;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 11px;
   font-weight: 500;
-  color: #ffffff;
+  color: black;
   white-space: nowrap;
   -webkit-transition: all 0.1s ease 0s;
   transition: all 0.1s ease 0s;
@@ -1155,7 +1157,7 @@ a.border-button {
   left: auto !important;
 }
 .region-page h4 {
-  color: #EBC689;
+  color: white;
   margin-bottom: 21px;
 }
 #mobile-footer {
@@ -1252,7 +1254,7 @@ a.border-button {
 }
 #bar #bar-top #bar-player-track {
   position: relative;
-  background-color: #0B98FF;
+  background-color: #ffffff;
   height: 56px;
   margin-right: 57px;
 }
@@ -1365,7 +1367,8 @@ a.border-button {
   margin-left: 14px;
 }
 #bar #bar-content #bar-icons span svg * {
-  fill: #EBC689;
+  fill: #ffffff;
+  border: 1px solid #EBC689;
 }
 #bar #bar-content #bar-icons span:hover svg * {
   fill: #EBC689;
@@ -1405,8 +1408,7 @@ a.border-button {
 #bar #bar-content nav ul li a {
   display: block;
   line-height: 52px;
-  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-  letter-spacing: 3px;
+  font-family: 'Lora', serif;  letter-spacing: 3px;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1459,7 +1461,7 @@ a.border-button {
   width: 56px;
   height: 56px;
   overflow: hidden;
-  background-color: #0B98FF;
+  background-color: #ffffff;
   cursor: pointer;
 }
 #bar #bar-nav-player:hover,
@@ -1751,7 +1753,8 @@ a.border-button {
   position: absolute;
   width: 100%;
   right: -50%;
-  bottom: -75px;
+  top: 120%;
+  padding-top: 10%;
   text-align: center;
 }
 #region-home #home-claim-container.claim-bottom-right {
@@ -1834,9 +1837,11 @@ a.border-button {
 }
 .dark-background #region-home #home-claim-container #home-claim-line-1 {
   color: #ffffff;
+  font-family: 'Lora', serif;
 }
 .dark-background #region-home #home-claim-container #home-claim-line-2 {
   color: #ffffff;
+  font-family: 'Lora', serif;
 }
 .breakpoint-h2 #home-claim-container {
   position: relative !important;
@@ -1953,7 +1958,7 @@ a.border-button {
   top: 0;
   width: 245px;
   bottom: 0;
-  background-color: #272b37;
+  background-color: black;
   overflow-x: hidden;
   overflow-y: auto;
   padding-top: 84px;
@@ -2050,8 +2055,6 @@ a.border-button {
 }
 #region-page-one #page-content {
   position: relative;
-  background-color: rgba(32, 33, 37, 0.85);
-  padding: 126px 84px 21px;
   margin: -84px 0 77px 280px;
   *zoom: 1;
 }
@@ -2336,18 +2339,20 @@ a.border-button {
 #share-on span#share-on-label {
   display: block;
   margin-right: 127px;
-  background-color: #0B98FF;
+  background-color: #ffffff;
   font-weight: 700;
   padding: 0 0;
   padding-left: 7px;
   padding-right: 7px;
+  color: black;
 }
 #share-on span#share-on-select {
   float: right;
-  background-color: #0B98FF;
+  background-color: #ffffff;
   cursor: pointer;
   width: 126px;
   box-sizing: border-box;
+  color: black;
 }
 #share-on span#share-on-select:hover {
   background-color: #EBC689;
@@ -2376,14 +2381,14 @@ a.border-button {
   padding: 0 14px;
   font-size: 12px;
   letter-spacing: 1px;
-  color: #ffffff;
+  color: black;
   line-height: 28px;
   text-transform: uppercase;
   clear: right;
   float: right;
   margin-bottom: 1px;
   width: 126px;
-  background-color: #7F462C;
+  background-color: #ffffff;
   box-sizing: border-box;
 }
 #share-on #share-on-options div:hover {
@@ -3213,6 +3218,7 @@ a.border-button {
   user-select: none;
 }
 .region-tracklist ul li {
+  font-family: 'Lora', serif;
   line-height: 21px;
   margin-bottom: 1px;
   background-color: #686868;
@@ -4045,9 +4051,13 @@ a.border-button {
 }
 .widget > *:last-child {
   margin-bottom: 0;
+  font-family: 'Lora', serif;
+  color: white;
 }
 .widget p {
   opacity: 0.5;
+  font-family: 'Lora', serif;
+  color: white;
 }
 .widget h1,
 .widget h2,
@@ -4057,7 +4067,8 @@ a.border-button {
   margin-bottom: 7px;
 }
 .widget h5 {
-  color: #82a0c8;
+  color: white;
+  font-family: 'Lora', serif;
 }
 .widget nav {
   font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
@@ -4136,6 +4147,7 @@ a.border-button {
 }
 .widget ul li a {
   color: #ffffff;
+  font-family: 'Lora', serif;
 }
 .widget ul li a:hover {
   color: #c15151;
